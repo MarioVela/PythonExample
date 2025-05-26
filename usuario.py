@@ -6,10 +6,9 @@ salario = "20000"
 edificio = "C"
 activo = True
 
-print ("PASO 6 IMPRESION DE TODA LA INFORMACION")
+# PASO 6 IMPRESION DE TODA LA INFORMACION
 
-print ("______________________")
-print ("PASO 1 DATOS DEL TRABAJADOR")
+# PASO 1 DATOS DEL TRABAJADOR
 print ("Nombre del Empleado:",(empleado))
 print ("Edad:", (edad), "años")
 print ("Salario Mensual:",(salario)," MXN")
@@ -17,7 +16,7 @@ print ("Edificio Asignado:",(edificio))
 print ("Trabajador Activo:",(activo))
 print ("____________________")
 
-print ("PASO 2 TIPOS DE DATOS INGRESADOS")
+# PASO 2 TIPOS DE DATOS INGRESADOS
 print (type(empleado))
 print (type(edad))
 print (type(salario))
@@ -42,8 +41,7 @@ print ("Edificio Asignado:",(edificio), "ASCII")
 print ("Trabajador Activo:",(activo))
 print ("_______________________")
 
-
-print ("PASO 4 TIPOS DE DATOS CONVERTIDOS")
+# PASO 4 TIPOS DE DATOS CONVERTIDOS
 print (type(empleado))
 print (type(edad))
 print (type(salario))
@@ -51,7 +49,7 @@ print (type(edificio))
 print (type(activo))
 print ("_______________________")
 
-print ("PASO 5 ASCII DEL EDIFICIO")
+# PASO 5 ASCII DEL EDIFICIO
 print ("Edificio Asignado:",(edificio), "ASCII")
 
 
