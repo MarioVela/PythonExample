@@ -1,0 +1,6 @@
+nombre = input("escribe el nombre: ")
+apellido_paterno = input("escribe el apellido parteno: ")
+apellido_materno = input("escribe el apellido materno: ")
+fecha_de_nacimento = input("escribe la fecha de nacimento año/mes/dia: ")
+print("____________________________")
+print(f'Tu contraseña generada por el sistema es:{nombre[0]}{apellido_paterno[-2:]}{apellido_materno[0]}{fecha_de_nacimento[-2:]}')
