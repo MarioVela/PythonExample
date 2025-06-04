@@ -1,0 +1,1 @@
+float input(f'digita un numero ')
