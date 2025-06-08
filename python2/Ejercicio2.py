@@ -1,0 +1,12 @@
+productos = ["pan", "leche", "arroz", "huevo", "sal"]
+print(productos)
+productos.insert(3, 'aceite')
+print(productos)
+print('azucar' in productos)
+productos.sort()
+print(productos)
+print(productos [::-1])
+productos.remove('sal')
+print(productos)
+productos_backup = productos.copy()
+print(productos_backup)
