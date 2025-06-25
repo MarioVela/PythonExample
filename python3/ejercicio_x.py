@@ -1807,3 +1807,8 @@ ejercicio = {
 2. Obtener el ancho (width) del producto en la posicion 3
 3. Obtener el nombre del segundo tag del quinto producto 
 """
+
+reviewer = ejercicio["products"][0]["reviews"][0]["reviewerEmail"]
+print(f'el email es: {reviewer}')
+#tag = ejercicio["product"][4]["tags"]
+#print(tag)
