@@ -1808,7 +1808,16 @@ ejercicio = {
 3. Obtener el nombre del segundo tag del quinto producto 
 """
 
+
+# Ejercicio 1
 reviewer = ejercicio["products"][0]["reviews"][0]["reviewerEmail"]
-print(f'el email es: {reviewer}')
-#tag = ejercicio["product"][4]["tags"]
-#print(tag)
+print(f'El correo del primer producto es: {reviewer}')
+
+
+# Ejercicio 2
+width_3 = ejercicio["products"][2]["dimensions"]["width"]
+print (f'El width del tercer producto es: {width_3}')
+
+# Ejercicio 3
+segundo_tag_5 = ejercicio["products"][4]["tags"][1]
+print (f'El segundo tag del quinto producto es: {segundo_tag_5}')
